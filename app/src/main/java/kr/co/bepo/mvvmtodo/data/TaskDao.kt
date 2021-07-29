@@ -2,7 +2,6 @@ package kr.co.bepo.mvvmtodo.data
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
-import kr.co.bepo.mvvmtodo.ui.tasks.SortOrder
 
 @Dao
 interface TaskDao {
