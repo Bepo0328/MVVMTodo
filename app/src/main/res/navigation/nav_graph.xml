@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/taskFragment"
         android:name="kr.co.bepo.mvvmtodo.ui.tasks.TasksFragment"
-        android:label="fragment_tasks"
+        android:label="Tasks"
         tools:layout="@layout/fragment_tasks">
 
         <action

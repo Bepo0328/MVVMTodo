@@ -16,7 +16,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 import kr.co.bepo.mvvmtodo.R
 import kr.co.bepo.mvvmtodo.databinding.FragmentAddEditTaskBinding
-import kr.co.bepo.mvvmtodo.util.exhaustive
 
 @AndroidEntryPoint
 class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
@@ -63,7 +62,7 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
                         )
                         findNavController().popBackStack()
                     }
-                }.exhaustive
+                }
             }
         }
     }
